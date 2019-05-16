@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c4ab8a-c6b1-43aa-8580-73974b4426cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gitlab_release_notes_maker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe/gitlab_release_notes_maker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitlab_release_notes_maker.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gitlab_release_notes_maker.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gitlab_release_notes_maker/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gitlab_release_notes_maker_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@All_tests_in_gitlab_release_notes_maker__gitlab_release_notes_maker.rcov" NAME="All tests in gitlab_release_notes_maker: gitlab_release_notes_maker Coverage Results" MODIFIED="1535920098186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gitlab_release_notes_maker" />
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@gitlab_release_notes_maker.rcov" NAME="gitlab_release_notes_maker Coverage Results" MODIFIED="1552485976805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe" MODULE_NAME="gitlab_release_notes_maker" />
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@gitlab_release_notes_maker_ok.rcov" NAME="gitlab_release_notes_maker_ok Coverage Results" MODIFIED="1554125164077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gitlab_release_notes_maker" />
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@bundle_install.rcov" NAME="bundle install Coverage Results" MODIFIED="1552903680654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe" MODULE_NAME="gitlab_release_notes_maker" />
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@gitlab_release_notes_maker__help.rcov" NAME="gitlab_release_notes_maker  help Coverage Results" MODIFIED="1552912072541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe" MODULE_NAME="gitlab_release_notes_maker" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/gitlab_release_notes_maker.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/console">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exe/gitlab_release_notes_maker">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/entrypoint.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitlab_release_notes_maker.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/httparty-0.16.2/lib/httparty/request.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2130">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/gitlab-4.5.0/lib/gitlab/client/projects.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.gem/ruby/2.3.0/gems/ruby-debug-ide-0.7.0.beta6/lib/ruby-debug-ide.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Resolve</find>
+      <find>ae65a90c99c12396eeaa26203b63812b9d63f6c5</find>
+      <find>issues</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/gitlab_release_notes_maker.gemspec" />
+        <option value="$PROJECT_DIR$/lib/gitlab_release_notes_maker.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bin/entrypoint.sh" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="y" value="25" />
+    <option name="width" value="642" />
+    <option name="height" value="926" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gitlab_release_notes_maker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitlab_release_notes_maker" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.rvm/rubies/ruby-2.5.1/bin/bundle" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.gitlab_release_notes_maker_ok">
+    <configuration name="bundle install" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="gitlab_release_notes_maker" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/exe" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-2.5.1-p57" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$USER_HOME$/.rvm/rubies/ruby-2.5.1/bin/bundle" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="install" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gitlab_release_notes_maker  help" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="gitlab_release_notes_maker" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-2.3.7-p456" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/exe/gitlab_release_notes_maker" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="tt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gitlab_release_notes_maker_ok" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="gitlab_release_notes_maker" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-2.3.7-p456" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/exe/gitlab_release_notes_maker" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--project 3004858 --branch develop --token CyzfekbdWrktFZJ8UGFh --tag-start v1.46.6" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests in gitlab_release_notes_maker: gitlab_release_notes_maker" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="gitlab_release_notes_maker" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ruby.gitlab_release_notes_maker_ok" />
+      <item itemvalue="Ruby.gitlab_release_notes_maker  help" />
+      <item itemvalue="Ruby.bundle install" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in gitlab_release_notes_maker: gitlab_release_notes_maker" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.bundle install" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in gitlab_release_notes_maker: gitlab_release_notes_maker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c4ab8a-c6b1-43aa-8580-73974b4426cd" name="Default Changelist" comment="" />
+      <created>1535723907459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535723907459</updated>
+      <workItem from="1535723908666" duration="3396000" />
+      <workItem from="1535730342605" duration="4038000" />
+      <workItem from="1535921281983" duration="12800000" />
+      <workItem from="1536039603973" duration="7216000" />
+      <workItem from="1536091217103" duration="19637000" />
+      <workItem from="1536178293491" duration="6073000" />
+      <workItem from="1536244319875" duration="20454000" />
+      <workItem from="1536744828080" duration="2290000" />
+      <workItem from="1537342554417" duration="2104000" />
+      <workItem from="1537362320629" duration="588000" />
+      <workItem from="1537362944901" duration="597000" />
+      <workItem from="1537365377980" duration="1465000" />
+      <workItem from="1537437950849" duration="3477000" />
+      <workItem from="1538471655630" duration="793000" />
+      <workItem from="1538475889429" duration="1284000" />
+      <workItem from="1539010498267" duration="920000" />
+      <workItem from="1539023328947" duration="694000" />
+      <workItem from="1539676408894" duration="1295000" />
+      <workItem from="1540827472299" duration="571000" />
+      <workItem from="1542874828167" duration="283000" />
+      <workItem from="1542889867048" duration="680000" />
+      <workItem from="1543325888644" duration="6296000" />
+      <workItem from="1544434305010" duration="1845000" />
+      <workItem from="1544623229797" duration="1396000" />
+      <workItem from="1545323468232" duration="2234000" />
+      <workItem from="1545990131853" duration="1530000" />
+      <workItem from="1546848553753" duration="1167000" />
+      <workItem from="1547198597459" duration="599000" />
+      <workItem from="1547202554262" duration="928000" />
+      <workItem from="1547204375438" duration="624000" />
+      <workItem from="1547208255853" duration="1266000" />
+      <workItem from="1547742419777" duration="312000" />
+      <workItem from="1548235386270" duration="120000" />
+      <workItem from="1549277484474" duration="607000" />
+      <workItem from="1549279398972" duration="1448000" />
+      <workItem from="1549286695084" duration="814000" />
+      <workItem from="1549355310658" duration="1586000" />
+      <workItem from="1549545069122" duration="1130000" />
+      <workItem from="1549632045072" duration="900000" />
+      <workItem from="1549898354519" duration="753000" />
+      <workItem from="1550095920810" duration="729000" />
+      <workItem from="1550141995545" duration="1640000" />
+      <workItem from="1550231884183" duration="613000" />
+      <workItem from="1550236835641" duration="1561000" />
+      <workItem from="1550841864886" duration="1895000" />
+      <workItem from="1550947602514" duration="628000" />
+      <workItem from="1551083905519" duration="643000" />
+      <workItem from="1551089211237" duration="1106000" />
+      <workItem from="1551190817633" duration="1870000" />
+      <workItem from="1551192780020" duration="1239000" />
+      <workItem from="1551212366975" duration="147000" />
+      <workItem from="1551281985912" duration="598000" />
+      <workItem from="1551355826749" duration="313000" />
+      <workItem from="1551951212766" duration="597000" />
+      <workItem from="1551971122675" duration="1179000" />
+      <workItem from="1551972962657" duration="1250000" />
+      <workItem from="1552379140874" duration="1508000" />
+      <workItem from="1552408397728" duration="873000" />
+      <workItem from="1552483736060" duration="1079000" />
+      <workItem from="1552485547262" duration="936000" />
+      <workItem from="1552668344156" duration="782000" />
+      <workItem from="1552902378867" duration="1771000" />
+      <workItem from="1552904204352" duration="1786000" />
+      <workItem from="1552906024495" duration="1826000" />
+      <workItem from="1552907893402" duration="1432000" />
+      <workItem from="1552909359113" duration="753000" />
+      <workItem from="1552911823181" duration="1631000" />
+      <workItem from="1552916805094" duration="1762000" />
+      <workItem from="1552918598569" duration="1792000" />
+      <workItem from="1552920455502" duration="1026000" />
+      <workItem from="1553262946748" duration="1178000" />
+      <workItem from="1554125016028" duration="907000" />
+      <workItem from="1554708642966" duration="2095000" />
+      <workItem from="1554968166153" duration="2014000" />
+      <workItem from="1555075415043" duration="1653000" />
+      <workItem from="1555580845978" duration="639000" />
+      <workItem from="1556005061183" duration="1111000" />
+      <workItem from="1556113238480" duration="569000" />
+      <workItem from="1556176293522" duration="1214000" />
+      <workItem from="1556184823184" duration="720000" />
+      <workItem from="1556550471979" duration="686000" />
+      <workItem from="1556570605763" duration="642000" />
+      <workItem from="1556608353680" duration="1498000" />
+      <workItem from="1556784334394" duration="1970000" />
+      <workItem from="1556808695972" duration="2339000" />
+      <workItem from="1557387783697" duration="1260000" />
+      <workItem from="1557389959291" duration="598000" />
+      <workItem from="1557473863846" duration="1228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_tests_in_gitlab_release_notes_maker__gitlab_release_notes_maker - 2018.09.02 at 22h 28m 19s.xml">
+      <configuration name="All tests in gitlab_release_notes_maker: gitlab_release_notes_maker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173496000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="25" width="1922" height="936" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5561097" visible="true" weight="0.37353256" />
+      <window_info id="Structure" order="1" sideWeight="0.44389027" side_tool="true" visible="true" weight="0.37353256" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.92742795" weight="0.37540108" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6670224" weight="0.44539878" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3329776" side_tool="true" visible="true" weight="0.50797546" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18036287" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gitlab_release_notes_maker@gitlab_release_notes_maker_ok.rcov" NAME="gitlab_release_notes_maker_ok Coverage Results" MODIFIED="1557474075634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gitlab_release_notes_maker" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>commit.id == &quot;7428d27363d55c71e1bc8a7f932d19191359936b&quot;</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>commit.id === &quot;7428d27363d55c71e1bc8a7f932d19191359936b&quot;</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>commit.id === &quot;ae65a90c99c12396eeaa26203b63812b9d63f6c5&quot;</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>/Closes #(\d+)/.match(commit.message)</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>project.last_activity_at</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DateTime.new</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Date.new</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Date</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!issues.include?(issue_number.to_i)</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>issues.include?(issue_number)</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!issues.include?(issue_number)</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mr.state == &quot;mergd&quot;</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mr.state == &quot;merged&quot;</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gem/ruby/2.3.0/gems/ruby-debug-ide-0.7.0.beta6/bin/rdebug-ide">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/regexp.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14385">
+          <caret line="959" column="8" selection-start-line="959" selection-start-column="8" selection-end-line="959" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/gitlab-4.5.0/lib/gitlab/client/merge_requests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="66" selection-start-line="128" selection-start-column="66" selection-end-line="128" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/2.3.0/json/common.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/site_ruby/2.3.0/bundler/cli/update.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib/http/cookie/ruby_compat.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/2.3.0/set.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4785">
+          <caret line="319" column="10" selection-start-line="319" selection-start-column="6" selection-end-line="319" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/gitlab-4.5.0/lib/gitlab/paginated_response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODE_OF_CONDUCT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/gitlab-4.5.0/lib/gitlab/client/commits.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/monitor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/2.3.0/optparse.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23205">
+          <caret line="1547" selection-start-line="1547" selection-end-line="1547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/gitlab-4.5.0/lib/gitlab/request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0/bundler.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7545">
+          <caret line="503" selection-start-line="503" selection-end-line="503" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gitlab_release_notes_maker/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/gitlab-4.5.0/lib/gitlab/client/projects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/setup">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe/gitlab_release_notes_maker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitlab_release_notes_maker.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/httparty-0.16.2/lib/httparty/request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/gitlab-4.5.0/lib/gitlab/client/projects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gem/ruby/2.3.0/gems/ruby-debug-ide-0.7.0.beta6/lib/ruby-debug-ide.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.3.7/lib/ruby/gems/2.3.0/gems/rest-client-2.0.2/lib/restclient.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gitlab_release_notes_maker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
