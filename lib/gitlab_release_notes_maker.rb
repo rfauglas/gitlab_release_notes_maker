@@ -53,6 +53,9 @@ module GitlabReleaseNotesMaker
 
   def self.findIssue(msg, g, project_id)
     m = /Closes #(\d+)/.match(msg)
+    if (!m)
+      m = /(\d+)\s*-/.match(msg)
+    end
 
     if (m)
       issue_number = m.captures[0]
