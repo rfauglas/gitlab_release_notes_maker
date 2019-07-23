@@ -32,6 +32,9 @@ module GitlabReleaseNotesMaker
     opts.on("--branch BRANCH", "Branch name default master") do |b|
       options[:branch] = b || 'master'
     end
+    opts.on("--verbose", "Verbose mode") do |v|
+      options[:verbose] = true;
+    end
   end.parse!
 
 
@@ -39,7 +42,7 @@ module GitlabReleaseNotesMaker
 
   project = g.project(options[:project])
   date1 = g.tag(options[:project], options[:tag1]).commit.created_at
-  date2 = options[:tag2] ? g.tag(options[:project], options[:tag2]).commit.created_at :  Time.now.utc.iso8601
+  date2 = options[:tag2] ? g.tag(options[:project], options[:tag2]).commit.created_at : Time.now.utc.iso8601
 
   commits = g.commits(options[:project], :since => date1, :until => date2, :ref_name => options[:branch])
 
@@ -67,9 +70,11 @@ module GitlabReleaseNotesMaker
   commits.each do |c|
     commit = convertCommit(c)
     discarded_commits << commit
-    puts "Commit - #{commit.id}: #{commit.title}"
-    puts "->#{commit.message}"
 
+    if (options[:verbose])
+      puts "Commit - #{commit.id}: #{commit.title}"
+      puts "->#{commit.message}"
+    end
     mrs = g.commit_merge_requests(project.id, commit.id)
     mrs.each do |mr|
       next unless mr.state == "merged"
@@ -83,7 +88,7 @@ module GitlabReleaseNotesMaker
 
       end
     end
-    if ( mrs.empty? && (i = findIssue(commit.message, g, project.id)))
+    if (mrs.empty? && (i = findIssue(commit.message, g, project.id)))
       issue = Issue.new(i.iid, i.title, i.labels)
       issue_commmits[issue] ||= []
       issue_commmits[issue] << commit
@@ -92,7 +97,7 @@ module GitlabReleaseNotesMaker
     end
   end
 
-puts "Release notes pour #{options[:tag2]}"
+  puts "Release notes pour #{options[:tag2]}"
 
   print <<-HEREDOC
   

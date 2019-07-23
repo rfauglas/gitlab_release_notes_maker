@@ -20,8 +20,11 @@ Or install it yourself as:
 
     $ gem install gitlab_release_notes_maker
 
-Docker:
-docker build -t rfauglas/gitlab_release_notes_maker  -t rfauglas/gitlab_release_notes_maker:0.1 . 
+## Build 
+docker build -t rfauglas/gitlab_release_notes_maker  -t registry.gitlab.com/listopro/listo/gitlab-release-notes-maker:latest . 
+## Deploy
+docker login registry.gitlab.com
+docker push registry.gitlab.com/listopro/listo/gitlab-release-notes-maker:latest
 ## Usage
 
 TODO: Write usage instructions here
