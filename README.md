@@ -1,8 +1,8 @@
 # GitlabReleaseNotesMaker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gitlab_release_notes_maker`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Gem lets you create markdown release notes based on commits found between to tags (or a unique start-tag).
+Commits are attached to issues based on Gitlab mode which let you find a  merge request/attached issue linked to commit.
+In case no merge request is found an attempt is made to find an issue number pattern."^\s*#?(\d+)\s*-"
 
 ## Installation
 
