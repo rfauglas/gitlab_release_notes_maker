@@ -70,7 +70,11 @@ module GitlabReleaseNotesMaker
     return Commit.new(commit.id, commit.title, commit.message)
   end
 
-  commits.each do |c|
+  # Exclude start date commit...
+  commits.pop
+
+  commits
+      .each do |c|
     commit = convertCommit(c)
     discarded_commits << commit
 
@@ -108,11 +112,11 @@ module GitlabReleaseNotesMaker
 |-------|-------|-------------|---------|
   HEREDOC
 
-  issue_commmits.sort_by {|issue, commits| issue.labels.sort.join(", ")}
+  issue_commmits.sort_by { |issue, commits| issue.labels.sort.join(", ") }
       .each do |issue, issue_commits|
     print "| #{issue.labels.sort.join(", ")}| [##{issue.iid}](https://gitlab.com/listopro/listo/issues/#{issue.iid}) | #{issue.title} |"
     print issue_commits
-              .collect {|commit| "[#{commit.id}](https://gitlab.com/listopro/listo/commit/#{commit.id})"}
+              .collect { |commit| "[#{commit.id}](https://gitlab.com/listopro/listo/commit/#{commit.id})" }
               .join("<br/> ")
     puts "|\n"
   end
